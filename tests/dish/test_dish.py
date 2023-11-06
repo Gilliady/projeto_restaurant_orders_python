@@ -2,6 +2,7 @@ import pytest
 from src.models.dish import Dish  # noqa: F401, E261, E501
 from src.models.ingredient import Restriction, Ingredient
 
+
 # Req 2
 def test_dish():
     tomato = Ingredient("tomate")
