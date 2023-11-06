@@ -29,7 +29,7 @@ class MenuBuilder:
         full_menu = [
             {
                 "dish_name": dish.name, "price": dish.price,
-                "ingredients": dish.get_ingredients(), 
+                "ingredients": dish.get_ingredients(),
                 "restrictions": list(dish.get_restrictions()),
                 } for dish in self.menu_data.dishes
         ]
